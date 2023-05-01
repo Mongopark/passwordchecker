@@ -7,6 +7,13 @@ This is a javascript program built for password strengthening in a website
 https://passwordchecker-mongopark.vercel.app
  is the link to the hosted page
 
+## License:
+This Program is Licensed under MIT License
+
+https://passwordchecker-mongopark.vercel.app
+ is the link to the hosted page
+
+
 ## Programming Languages Used
 
 - Html
