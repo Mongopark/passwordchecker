@@ -60,13 +60,13 @@ function StrengthChecker(PasswordParameter) {
 
   if (strongPassword.test(PasswordParameter)) {
     strengthBadge.style.backgroundColor = "green";
-    strengthBadge.innerHTML = "password strenght:<b>Strong</b>";
+    strengthBadge.innerHTML = "password strenght: <b>Strong</b>";
   } else if (mediumPassword.test(PasswordParameter)) {
     strengthBadge.style.backgroundColor = "orange";
-    strengthBadge.innerHTML = "password strenght:<b>Medium</b>,<br> password has to include a lowercase, uppercase, number and symbol and must be at least eight characters long";
+    strengthBadge.innerHTML = "password strenght: <b>Medium</b>,<br> password has to include a lowercase, uppercase, number and symbol and must be at least eight characters long";
   } else {
     strengthBadge.style.backgroundColor = "red";
-    strengthBadge.innerHTML = "password strenght:<b>Weak</b>,<br> password has to include a lowercase, uppercase, number and symbol and must be at least eight characters long";
+    strengthBadge.innerHTML = "password strenght: <b>Weak</b>,<br> password has to include a lowercase, uppercase, number and symbol and must be at least eight characters long";
   }
 }
 

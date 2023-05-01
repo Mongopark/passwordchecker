@@ -1,10 +1,10 @@
 # Password Checker
 
-This is a javascript program built for password strenghtening in a website
+This is a javascript program built for password strengthening in a website
 
 ## Website Link
 
-https://passwordcreator-mongopark.vercel.app
+https://passwordchecker-mongopark.vercel.app
  is the link to the hosted page
 
 ## Programming Languages Used
